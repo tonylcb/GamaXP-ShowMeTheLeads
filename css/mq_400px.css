@@ -1,5 +1,5 @@
 html {
-    max-width: 375px;    
+    /* max-width: 375px;     */
     /* border: 3px solid green; */
     /* height: 700px; */
 }
@@ -7,9 +7,10 @@ body {
     background-position: center;
 }
 main {
-    max-width: 375px;    
+    /* max-width: 375px;     */
     display: flex;
     flex-flow: column nowrap;
+    justify-content: flex-start;
     align-items: center;
     background: rgba(66, 11, 1, 0.5);
     height: 100vh;
@@ -26,7 +27,10 @@ main {
 .container {
     background: none;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    justify-content: flex-start;
+    max-width: 320px;
+    /* border: 2px solid blue; */
 }
 
 
@@ -38,8 +42,9 @@ main {
 }
 
 .btn-3{
+    max-width: 320px;
     margin: 0px;
-    font-size: 12px;
+    font-size: clamp(.55em, .6em + 1vw, .75em);
     color: white;
     margin: 0px 15px 0px 15px;
     padding: 0px;
@@ -57,7 +62,7 @@ main {
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     /* align-items: center; */
     /* border: 1px solid red; */
     text-align: center;
@@ -67,8 +72,8 @@ main {
 }
 
 .form-title {
-    margin-top: 10px;
-    max-width: 100%;
+    margin-top: 0px;
+    max-width: 300px;
     font-size: 15px;
     color: white;
     font-family: "Lato", sans-serif;
@@ -76,14 +81,14 @@ main {
 }
 
 .form-title h2 {
-    margin: 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .container-form {
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: center;
     /* align-items: center; */
     /* border: 1px solid red; */
     text-align: center;
@@ -102,12 +107,12 @@ main {
     margin-top: 5px;
 }
 .form-group {
-    width: 285px;
-
+    width: 295px;
+    margin: 0px;
 }
 
 input {
-    font: 300 20px Arial;
+    font: 305 20px Arial;
 }
 
 .submit-button {
@@ -115,7 +120,7 @@ input {
     border-radius: 0px;
     width: auto;
     max-width: 100%;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 15px 20px 15px;
     border-radius: 500px;
     box-sizing: border-box;
     /* height: 90px; */
@@ -126,5 +131,5 @@ input {
     color: white;
     /* font-weight: bold; */
     text-decoration: none;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
