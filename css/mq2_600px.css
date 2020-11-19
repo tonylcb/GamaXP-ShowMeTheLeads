@@ -1,0 +1,99 @@
+body {
+    flex-flow: column nowrap;
+    background-position: center;
+    height: 100vh;
+    /* background-position: center; */
+}
+
+.background{
+    background: rgba(66, 11, 1, 0.6);
+    height: 100vh;
+    /* width: 100%; */
+}
+
+.container1 {
+    width: 100vw;
+    background: none;
+    height: auto;
+}
+
+.logo-principal {
+    margin-top: 20px;
+    max-width: 170px;
+}
+
+.title-text h2{
+    font-size: 3.5vh;
+    max-width: 600px;
+    /* font-size: clamp(1em, 1.5em, 2em); */
+}
+
+.subtitle-text h2{
+    margin: 0px;
+    color: white;
+    font-size: 4vh;
+}
+
+.hide-text {
+    display: none;
+}
+.container2 {
+    justify-content: flex-start;
+    width: 100vw;
+    height: auto;
+}
+.contagem {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-title h2{
+    color: white;
+    max-width: 400px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    /* margin-bottom: 20px; */
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    font-size: clamp(1em, 1.5em, 2em);
+
+}
+.form-title {
+    margin: 20px 0px 10px 0px;
+}
+.green-font2 {
+    color: #0AC679;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+
+.form-block {
+    /* margin-top: 20px; */
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 7px
+}
+
+.form-control{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font: 300 15px Arial ;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 500px;
+}
+
+.submit-button {
+    padding: 20px 50px 20px 50px;
+    font-size: 3vh;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    white-space: nowrap;
+    /* height: 100px; */
+}
